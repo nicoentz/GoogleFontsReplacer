@@ -7,7 +7,7 @@ Dependencies: UNIX-like shell, installed python3 interpreter
 
 1.) Copy the script "get_gfonts.sh" and the python source file "replace.py" to the directory where the "fonts.css" is located.
 
-2.) Make sure, the shell script is executable by issuing "chmod +x get_gfonts.sh" in a terminal
+2.) Make sure the shell script is executable by issuing "chmod +x get_gfonts.sh" in a terminal
 
 3.) Execute the shell script using "./get_gfonts.sh"
 
