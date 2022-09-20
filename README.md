@@ -3,7 +3,9 @@ Some code snippets for automizing replacement of cdn hosted google fonts with lo
 
 Assuming you have given a css file "fonts.css" containing all @font-face {} definitions with references to woff2 font files hosted on the google CDN.
 
-1.) Copy the script get_gfonts.sh and the python source file replace.py to the directory where the "fonts.css" is located.
+Dependencies: UNIX-like shell, installed python 3 interpreter
+
+1.) Copy the script "get_gfonts.sh" and the python source file "replace.py" to the directory where the "fonts.css" is located.
 
 2.) Make sure, the shell script is executable by issuing "chmod +x get_gfonts.sh" in a terminal
 
