@@ -11,6 +11,6 @@ Dependencies: UNIX-like shell, installed python3 interpreter
 
 3.) Execute the shell script using "./get_gfonts.sh"
 
-4.) The shell script will find all reference to woff2 font files hosted by google, download them into the subfolder "fonts/". The python script will be executed and replaces all references to external hosted woff2-files in the given "fonts.css" with the corresponding local copy of the file. The old "fonts.css" is automatically backupped in the file "fonts_old.css".
+4.) The shell script will find all reference to woff2 font files hosted by google, download them into the subfolder "fonts/". The python script will be executed and will replace all references to external hosted woff2-files in the given "fonts.css" with the corresponding local copy of the file. The old "fonts.css" is automatically backupped in the file "fonts_old.css".
 
 5.) Now your webpage using "fonts.css" will use only local hosted fonts
