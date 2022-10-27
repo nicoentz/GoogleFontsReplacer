@@ -1,4 +1,4 @@
-grep "src" fonts.css | awk -F 'url\(|\)' '{print $2}' > files.txt
+grep "src" fonts.css | awk -F 'url\\(|\\)' '{print $2}' > files.txt
 mkdir fonts
 cd fonts
 xargs -n 1 curl -O < ../files.txt
